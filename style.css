@@ -1,0 +1,23 @@
+body {
+    color :aliceblue;
+    background: #654ea3;  
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); 
+background: linear-gradient(to right, #eaafc8, #654ea3); 
+}
+
+.heading{
+    width: 90%;
+    font-size: 30;
+}
+.btn-default{
+    background-color: #654ea3;
+}
+.btn-default :hover{
+    background-color: white;
+}
+
+#webcam,#result{
+    width:400px;
+    height: 300px;
+    border: #eaafc8 dashed 2px;
+}
